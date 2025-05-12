@@ -95,10 +95,10 @@ const PDFForm = () => {
   return (
     <>
       <Card className="w-full max-w-3xl shadow-lg">
-        <CardHeader className="bg-gradient-to-r from-purple-100 to-indigo-50 rounded-t-lg">
+        <CardHeader className="">
           <div className="flex items-center gap-2">
-            <FileText className="h-6 w-6 text-purple-600" />
-            <CardTitle className="text-2xl text-purple-800">PDF Generator</CardTitle>
+            <FileText className="h-6 w-6 text-black" />
+            <CardTitle className="text-2xl text-black">PDF Generator</CardTitle>
           </div>
           <CardDescription>
             Fill in the form below to generate a customized PDF document

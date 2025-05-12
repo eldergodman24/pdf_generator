@@ -16,7 +16,7 @@ const BusinessTemplate = () => {
           </Button>
         </Link>
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-purple-900 mb-2">Business Template</h1>
+          <h1 className="text-3xl font-bold text-black mb-2">Business Template</h1>
           <p className="text-lg text-gray-600">Create a professional business document</p>
         </div>
       </div>

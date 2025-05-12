@@ -8,7 +8,7 @@ const PDFFormActions = ({ generatePDF, previewPDF, isGenerating }) => {
     <div className="flex flex-col sm:flex-row gap-4 bg-gray-50 rounded-b-lg p-6">
       <Button 
         onClick={generatePDF} 
-        className="w-full sm:w-auto bg-purple-600 hover:bg-purple-700"
+        className="w-full sm:w-auto bg-black text-white hover:bg-white hover:text-black"
         disabled={isGenerating}
       >
         {isGenerating ? "Generating..." : "Generate & Download PDF"}
@@ -17,7 +17,7 @@ const PDFFormActions = ({ generatePDF, previewPDF, isGenerating }) => {
       <Button
         onClick={previewPDF}
         variant="outline"
-        className="w-full sm:w-auto border-purple-300 text-purple-700"
+        className="w-full sm:w-auto text-black"
         disabled={isGenerating}
       >
         <Eye className="mr-2 h-4 w-4" />
