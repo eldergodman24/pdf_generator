@@ -242,15 +242,6 @@ const CreativePDFForm = () => {
             isGenerating={isGenerating}
           />
           
-          <Button
-            onClick={previewPDF}
-            variant="outline"
-            className="w-full sm:w-auto border-blue-300 text-blue-700"
-            disabled={isGenerating}
-          >
-            <Eye className="mr-2 h-4 w-4" />
-            Preview PDF
-          </Button>
         </CardFooter>
       </Card>
 

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -74,7 +73,7 @@ const TemplateSelection = () => {
         
         <CardFooter className="bg-gray-50 rounded-b-lg p-6">
           <Link to="/template/creative" className="w-full">
-            <Button className="w-full bg-blue-600 hover:bg-blue-700">
+            <Button className="w-full bg-purple-600 hover:bg-purple-700">
               Select Creative Template
             </Button>
           </Link>
